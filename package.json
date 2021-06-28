@@ -1,0 +1,29 @@
+{
+  "name": "ignite-restify",
+  "version": "1.0.0",
+  "description": "Proof of concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts",
+    "typeorm": "node -r ts-node/register -r tsconfig-paths/register ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "@types/restify": "^8.5.1",
+    "@types/restify-errors": "^4.3.3",
+    "@types/restify-plugins": "^1.5.12",
+    "dotenv": "^10.0.0",
+    "pg": "^8.6.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-plugins": "^1.6.0",
+    "typeorm": "^0.2.34",
+    "typeorm-naming-strategies": "^2.0.0",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
